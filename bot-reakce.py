@@ -37,7 +37,7 @@ def main():
     casbefore0 = cas.replace(":", "")
     casbefore1 = casbefore0.replace("[", "")
     casbefore_final = casbefore1.replace("]", "")
-    print("Poslední Reakce : "+cas+" > "+Fore.GREEN + dohry + Style.RESET_ALL + " s vítězem " + Fore.YELLOW + slova_na_radku[4] + Style.RESET_ALL + " v čase " + slova_na_radku[7])
+    print("Poslední Reakce : "+cas+" > "+Fore.GREEN + dohry + Style.RESET_ALL + " s vítězem " + Fore.YELLOW + slova_na_radku[5] + Style.RESET_ALL + " v čase " + slova_na_radku[7])
     #print(casbefore_final+" "+casted)
     e = float(casbefore_final)
     f = float(casted)
